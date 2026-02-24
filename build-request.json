@@ -1,0 +1,74 @@
+{
+  "kind": "build_request",
+  "title": "Add 4 new case studies: Melbourne Star Movers, Richard Afkari, Plan Partners, Matinas Fashion Trunk",
+  "projectName": "Shubham Chordiya Portfolio",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-15",
+      "text": "Add four new case study entries to the Portfolio page (frontend/src/pages/Portfolio.tsx) using the existing CaseStudyCard component: Melbourne Star Movers (removalist/logistics, Australia), Richard Afkari (real estate agent personal brand, Australia or international), Plan Partners (financial planning/NDIS, Australia), and Matinas Fashion Trunk (fashion/apparel, India or international). Each card must include: Industry, Market, Budget, Platforms, Objective (2–3 sentences), Strategy (at least 5–7 detailed tactical bullet points covering audience targeting, creative approach, bidding strategy, funnel structure, tracking setup, and optimisation methods), Results (at least 4–6 quantitative result points with timelines and business impact), and key performance metrics displayed in visually highlighted MetricBlock accent elements. All content must be placeholder-free, professionally written, and contextually accurate for each brand's industry and market. Also update the Portfolio overview section to reflect the addition of the new industry categories covered by these four brands.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "can you also add melbourne star movers, Richard Afkari, Plan Partners, Matinas Fashion trunk from the portfolio doc"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Melbourne Star Movers case study card is rendered on the Portfolio page with all required fields: Industry, Market (Australia), Budget, Platforms, Objective (2–3 sentences), Strategy (5–7 bullets), Results (4–6 quantitative points), and MetricBlock highlights.",
+        "Richard Afkari case study card is rendered with all required fields including personal brand/real estate context, relevant market, and MetricBlock highlights.",
+        "Plan Partners case study card is rendered with all required fields including financial planning/NDIS industry context, relevant market, and MetricBlock highlights.",
+        "Matinas Fashion Trunk case study card is rendered with all required fields including fashion/apparel industry context, relevant market, and MetricBlock highlights.",
+        "All four new cards use the existing CaseStudyCard component consistent with the other 10 case studies.",
+        "Each new card includes a website link ('Visit Website') opening in a new tab — use best-fit URLs for each brand (e.g. official site if known, or a reasonable domain).",
+        "The Portfolio overview section is updated to reflect any new industry categories introduced by these four case studies.",
+        "No booking buttons, pricing sections, sales CTAs, or lead generation forms are present on the page.",
+        "Visual styling of the new cards is consistent with the existing minimal, corporate aesthetic (navy accents, Inter typography, subtle borders)."
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Generate brand logo images for the four new portfolio case studies — Melbourne Star Movers, Richard Afkari, Plan Partners, and Matinas Fashion Trunk — and save them as static assets under frontend/public/assets/generated/ with appropriate filenames (e.g., logo-melbourne-star-movers.dim_200x80.png, logo-richard-afkari.dim_200x80.png, logo-plan-partners.dim_200x80.png, logo-matinas-fashion-trunk.dim_200x80.png). Display each logo in the header area of its corresponding CaseStudyCard, consistent with how existing case study logos are displayed.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "can you also add melbourne star movers, Richard Afkari, Plan Partners, Matinas Fashion trunk from the portfolio doc"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A logo image is generated and saved for Melbourne Star Movers under frontend/public/assets/generated/.",
+        "A logo image is generated and saved for Richard Afkari under frontend/public/assets/generated/.",
+        "A logo image is generated and saved for Plan Partners under frontend/public/assets/generated/.",
+        "A logo image is generated and saved for Matinas Fashion Trunk under frontend/public/assets/generated/.",
+        "Each logo is displayed in the header area of its corresponding CaseStudyCard, positioned consistently with existing brand logos.",
+        "Logo presentation maintains the site's minimal corporate aesthetic."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files listed in frontend.immutablePaths.",
+    "Do not add booking buttons, pricing sections, sales CTAs, or lead generation forms to any page.",
+    "All new case study content must be placeholder-free and professionally written.",
+    "New case study cards must use the existing CaseStudyCard component without altering its interface in a breaking way."
+  ],
+  "nonGoals": [
+    "Modifying any of the existing 10 case study entries.",
+    "Changes to the Home or About pages.",
+    "Adding backend logic or data persistence.",
+    "Changing the overall site theme or design system."
+  ],
+  "imageRequirements": {
+    "required": [
+      "Clean minimal wordmark logo for a removalist/logistics company called Melbourne Star Movers — dark navy text on white background, simple star or arrow motif (logo-melbourne-star-movers.dim_200x80.png)",
+      "Clean minimal personal brand wordmark logo for Richard Afkari, real estate professional — dark serif or sans-serif name treatment on white background (logo-richard-afkari.dim_200x80.png)",
+      "Clean minimal logo for Plan Partners, a financial planning and NDIS support organisation — trustworthy, corporate style, dark navy on white (logo-plan-partners.dim_200x80.png)",
+      "Clean minimal wordmark logo for Matinas Fashion Trunk, a fashion/apparel brand — elegant, modern typography on white background (logo-matinas-fashion-trunk.dim_200x80.png)"
+    ],
+    "edits": []
+  }
+}

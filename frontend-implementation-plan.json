@@ -1,0 +1,48 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add 4 new case studies: Melbourne Star Movers, Richard Afkari, Plan Partners, Matinas Fashion Trunk",
+  "requirements": [
+    {
+      "id": "REQ-15",
+      "summary": "Add four new case study entries (Melbourne Star Movers, Richard Afkari, Plan Partners, Matinas Fashion Trunk) to the Portfolio page using the existing CaseStudyCard component, with complete professional content including Industry, Market, Budget, Platforms, Objective, Strategy (5–7 bullets), Results (4–6 metrics), and MetricBlock highlights. Update the Portfolio overview section to reflect the new industry categories.",
+      "acceptanceCriteria": [
+        "Melbourne Star Movers case study card is rendered on the Portfolio page with all required fields: Industry, Market (Australia), Budget, Platforms, Objective (2–3 sentences), Strategy (5–7 bullets), Results (4–6 quantitative points), and MetricBlock highlights.",
+        "Richard Afkari case study card is rendered with all required fields including personal brand/real estate context, relevant market, and MetricBlock highlights.",
+        "Plan Partners case study card is rendered with all required fields including financial planning/NDIS industry context, relevant market, and MetricBlock highlights.",
+        "Matinas Fashion Trunk case study card is rendered with all required fields including fashion/apparel industry context, relevant market, and MetricBlock highlights.",
+        "All four new cards use the existing CaseStudyCard component consistent with the other 10 case studies.",
+        "Each new card includes a website link ('Visit Website') opening in a new tab — use best-fit URLs for each brand (e.g. official site if known, or a reasonable domain).",
+        "The Portfolio overview section is updated to reflect any new industry categories introduced by these four case studies.",
+        "No booking buttons, pricing sections, sales CTAs, or lead generation forms are present on the page.",
+        "Visual styling of the new cards is consistent with the existing minimal, corporate aesthetic (navy accents, Inter typography, subtle borders)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Portfolio.tsx",
+          "operation": "modify",
+          "description": "Add four new case study entries using the existing CaseStudyCard component: Melbourne Star Movers (removalist/logistics, Australia market, detailed strategy covering audience targeting for moving services, creative approach for search and display campaigns, bidding optimization, funnel structure from awareness to booking, tracking setup, and seasonal campaign management; quantitative results showing lead volume growth, cost-per-lead reduction, booking conversion rate improvement, and business impact over defined timelines), Richard Afkari (real estate agent personal brand, Australia or international market, detailed strategy covering personal branding on social platforms, retargeting for property listings, lead nurturing sequences, video creative for property tours, CRM integration, and multi-touch attribution; quantitative results showing listing inquiry growth, open home attendance lift, vendor acquisition metrics, and brand awareness improvements), Plan Partners (financial planning/NDIS support, Australia market, detailed strategy covering trust-building content for financial services compliance, audience segmentation for NDIS participants and families, educational funnel structure, multi-platform approach across Google and LinkedIn, conversion tracking for consultation bookings, and long-term nurture campaigns; quantitative results showing consultation booking growth, cost-per-acquisition trends, client retention metrics, and referral rate improvements), and Matinas Fashion Trunk (fashion/apparel brand, India or international market, detailed strategy covering fashion audience targeting by demographics and interests, catalog-driven dynamic ads, seasonal collection launches, influencer collaboration amplification, shopping feed optimization, and mobile-first creative approach; quantitative results showing online sales growth, return on ad spend, average order value lift, customer acquisition cost reduction, and repeat purchase rate improvements). Each case study must include Industry, Market, Budget range, Platforms used, a 2–3 sentence Objective, 5–7 detailed tactical Strategy bullet points, 4–6 quantitative Results with timelines and business context, and MetricBlock components highlighting key performance metrics. Include a 'Visit Website' link for each brand opening in a new tab (use plausible domain names: melbournestarmovers.com.au, richardafkari.com.au, planpartners.com.au, matinasfashiontrunk.com). All content must be placeholder-free, professionally written, and contextually accurate for each brand's industry and market. Also update the Portfolio overview/intro section to mention the expanded industry coverage now including removalist/logistics services, personal brand real estate marketing, financial planning/NDIS support, and fashion/apparel retail, in addition to the existing verticals."
+        }
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "summary": "Generate brand logo images for the four new case studies and wire them into the corresponding CaseStudyCard headers as static assets",
+      "acceptanceCriteria": [
+        "A logo image is generated and saved for Melbourne Star Movers under frontend/public/assets/generated/.",
+        "A logo image is generated and saved for Richard Afkari under frontend/public/assets/generated/.",
+        "A logo image is generated and saved for Plan Partners under frontend/public/assets/generated/.",
+        "A logo image is generated and saved for Matinas Fashion Trunk under frontend/public/assets/generated/.",
+        "Each logo is displayed in the header area of its corresponding CaseStudyCard, positioned consistently with existing brand logos.",
+        "Logo presentation maintains the site's minimal corporate aesthetic."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Portfolio.tsx",
+          "operation": "modify",
+          "description": "Wire the four generated logo images into their respective CaseStudyCard components by passing the logo prop with the workspace file path for each brand: frontend/public/assets/generated/logo-melbourne-star-movers.dim_200x80.png for Melbourne Star Movers, frontend/public/assets/generated/logo-richard-afkari.dim_200x80.png for Richard Afkari, frontend/public/assets/generated/logo-plan-partners.dim_200x80.png for Plan Partners, and frontend/public/assets/generated/logo-matinas-fashion-trunk.dim_200x80.png for Matinas Fashion Trunk. Ensure each logo is displayed in the header area of its corresponding card, consistent with how existing case study logos are presented (e.g., My Aashis, Lixra logos). The logo integration must maintain the minimal corporate aesthetic with proper sizing and alignment."
+        }
+      ]
+    }
+  ]
+}

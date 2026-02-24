@@ -1,0 +1,41 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-four-new-case-study-entries-to-the-portfolio-page-frontend-src-pages-portfolio-tsx-using-the-existing-casestudycard-component-melbourne-star-movers-removalist-logistics-australia-richard-afkari-real-estate-agent-personal-brand-australia-or-international-plan-partners-financial-planning-ndis-australia-and-matinas-fashion-trunk-fashion-apparel-india-or-international-each-card-must-include-industry-market-budget-platforms-objective-2-3-sentences-strategy-at-least-5-7-detailed-tactical-bullet-points-covering-audience-targeting-creative-approach-bidding-strategy-funnel-structure-tracking-setup-and-optimisation-methods-results-at-least-4-6-quantitative-result-points-with-timelines-and-business-impact-and-key-performance-metrics-displayed-in-visually-highlighted-metricblock-accent-elements-all-content-must-be-placeholder-free-professionally-written-and-contextually-accurate-for-each-brand-s-industry-and-market-also-update-the-portfolio-overview-section-to-reflect-the-addition-of-the-new-industry-categories-covered-by-these-four-brands",
+      "featureTitle": "Add four new case study entries to the Portfolio page (frontend/src/pages/Portfolio.tsx) using the existing CaseStudyCard component: Melbourne Star Movers (removalist/logistics, Australia), Richard Afkari (real estate agent personal brand, Australia or international), Plan Partners (financial planning/NDIS, Australia), and Matinas Fashion Trunk (fashion/apparel, India or international). Each card must include: Industry, Market, Budget, Platforms, Objective (2–3 sentences), Strategy (at least 5–7 detailed tactical bullet points covering audience targeting, creative approach, bidding strategy, funnel structure, tracking setup, and optimisation methods), Results (at least 4–6 quantitative result points with timelines and business impact), and key performance metrics displayed in visually highlighted MetricBlock accent elements. All content must be placeholder-free, professionally written, and contextually accurate for each brand's industry and market. Also update the Portfolio overview section to reflect the addition of the new industry categories covered by these four brands.",
+      "files": [
+        "frontend/src/pages/Portfolio.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-generate-brand-logo-images-for-the-four-new-portfolio-case-studies-melbourne-star-movers-richard-afkari-plan-partners-and-matinas-fashion-trunk-and-save-them-as-static-assets-under-frontend-public-assets-generated-with-appropriate-filenames-e-g-logo-melbourne-star-movers-dim-200x80-png-logo-richard-afkari-dim-200x80-png-logo-plan-partners-dim-200x80-png-logo-matinas-fashion-trunk-dim-200x80-png-display-each-logo-in-the-header-area-of-its-corresponding-casestudycard-consistent-with-how-existing-case-study-logos-are-displayed",
+      "featureTitle": "Generate brand logo images for the four new portfolio case studies — Melbourne Star Movers, Richard Afkari, Plan Partners, and Matinas Fashion Trunk — and save them as static assets under frontend/public/assets/generated/ with appropriate filenames (e.g., logo-melbourne-star-movers.dim_200x80.png, logo-richard-afkari.dim_200x80.png, logo-plan-partners.dim_200x80.png, logo-matinas-fashion-trunk.dim_200x80.png). Display each logo in the header area of its corresponding CaseStudyCard, consistent with how existing case study logos are displayed.",
+      "files": [
+        "frontend/src/pages/Portfolio.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

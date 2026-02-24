@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.375rem;
+
+    /* Core palette — light mode */
+    /* Navy: deep professional blue */
+    --navy-l: 0.255;
+    --navy-c: 0.072;
+    --navy-h: 243;
+
+    /* Surface: near-white */
+    --background: 0.975 0.004 247;
+    --foreground: 0.16 0.018 243;
+
+    /* Card: pure white */
+    --card: 1 0 0;
+    --card-foreground: 0.16 0.018 243;
+
+    /* Popover */
+    --popover: 1 0 0;
+    --popover-foreground: 0.16 0.018 243;
+
+    /* Primary = navy */
+    --primary: 0.255 0.072 243;
+    --primary-foreground: 0.985 0 0;
+
+    /* Secondary = light grey */
+    --secondary: 0.94 0.006 247;
+    --secondary-foreground: 0.255 0.072 243;
+
+    /* Muted */
+    --muted: 0.94 0.006 247;
+    --muted-foreground: 0.52 0.018 243;
+
+    /* Accent = very light navy tint */
+    --accent: 0.94 0.012 243;
+    --accent-foreground: 0.255 0.072 243;
+
+    /* Destructive */
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+
+    /* Border / Input */
+    --border: 0.88 0.008 247;
+    --input: 0.88 0.008 247;
+    --ring: 0.255 0.072 243;
+
+    /* Charts */
+    --chart-1: 0.646 0.222 41.116;
+    --chart-2: 0.6 0.118 184.704;
+    --chart-3: 0.398 0.07 227.392;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+
+    /* Sidebar */
+    --sidebar: 0.975 0.004 247;
+    --sidebar-foreground: 0.16 0.018 243;
+    --sidebar-primary: 0.255 0.072 243;
+    --sidebar-primary-foreground: 0.985 0 0;
+    --sidebar-accent: 0.94 0.012 243;
+    --sidebar-accent-foreground: 0.255 0.072 243;
+    --sidebar-border: 0.88 0.008 247;
+    --sidebar-ring: 0.255 0.072 243;
+  }
+
+  .dark {
+    --background: 0.145 0 0;
+    --foreground: 0.985 0 0;
+    --card: 0.205 0 0;
+    --card-foreground: 0.985 0 0;
+    --popover: 0.269 0 0;
+    --popover-foreground: 0.985 0 0;
+    --primary: 0.922 0 0;
+    --primary-foreground: 0.205 0 0;
+    --secondary: 0.269 0 0;
+    --secondary-foreground: 0.985 0 0;
+    --muted: 0.269 0 0;
+    --muted-foreground: 0.708 0 0;
+    --accent: 0.371 0 0;
+    --accent-foreground: 0.985 0 0;
+    --destructive: 0.704 0.191 22.216;
+    --destructive-foreground: 0.205 0 0;
+    --border: 1 0 0 / 10%;
+    --input: 1 0 0 / 15%;
+    --ring: 0.556 0 0;
+    --chart-1: 0.488 0.243 264.376;
+    --chart-2: 0.696 0.17 162.48;
+    --chart-3: 0.769 0.188 70.08;
+    --chart-4: 0.627 0.265 303.9;
+    --chart-5: 0.645 0.246 16.439;
+    --sidebar: 0.205 0 0;
+    --sidebar-foreground: 0.985 0 0;
+    --sidebar-primary: 0.488 0.243 264.376;
+    --sidebar-primary-foreground: 0.985 0 0;
+    --sidebar-accent: 0.269 0 0;
+    --sidebar-accent-foreground: 0.985 0 0;
+    --sidebar-border: 1 0 0 / 10%;
+    --sidebar-ring: 0.439 0 0;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .text-navy {
+    color: oklch(0.255 0.072 243);
+  }
+  .text-navy-light {
+    color: oklch(0.38 0.085 243);
+  }
+  .text-ink {
+    color: oklch(0.16 0.018 243);
+  }
+  .text-slate {
+    color: oklch(0.48 0.022 243);
+  }
+  .bg-navy {
+    background-color: oklch(0.255 0.072 243);
+  }
+  .bg-surface {
+    background-color: oklch(0.975 0.004 247);
+  }
+  .border-divider {
+    border-color: oklch(0.88 0.008 247);
+  }
+  .bg-navy\/5 {
+    background-color: oklch(0.255 0.072 243 / 0.05);
+  }
+  .bg-navy\/6 {
+    background-color: oklch(0.255 0.072 243 / 0.06);
+  }
+  .bg-navy\/8 {
+    background-color: oklch(0.255 0.072 243 / 0.08);
+  }
+  .bg-navy\/10 {
+    background-color: oklch(0.255 0.072 243 / 0.10);
+  }
+  .bg-white\/5 {
+    background-color: oklch(1 0 0 / 0.05);
+  }
+  .bg-white\/8 {
+    background-color: oklch(1 0 0 / 0.08);
+  }
+  .bg-white\/10 {
+    background-color: oklch(1 0 0 / 0.10);
+  }
+  .border-navy\/15 {
+    border-color: oklch(0.255 0.072 243 / 0.15);
+  }
+  .border-navy\/20 {
+    border-color: oklch(0.255 0.072 243 / 0.20);
+  }
+  .border-navy\/25 {
+    border-color: oklch(0.255 0.072 243 / 0.25);
+  }
+  .border-white\/10 {
+    border-color: oklch(1 0 0 / 0.10);
+  }
+  .border-white\/15 {
+    border-color: oklch(1 0 0 / 0.15);
+  }
+  .border-white\/20 {
+    border-color: oklch(1 0 0 / 0.20);
+  }
+  .hover\:text-navy:hover {
+    color: oklch(0.255 0.072 243);
+  }
+  .hover\:bg-navy\/5:hover {
+    background-color: oklch(0.255 0.072 243 / 0.05);
+  }
+  .hover\:border-navy\/20:hover {
+    border-color: oklch(0.255 0.072 243 / 0.20);
+  }
+  .text-navy\/8 {
+    color: oklch(0.255 0.072 243 / 0.08);
+  }
+  .bg-navy\/8 {
+    background-color: oklch(0.255 0.072 243 / 0.08);
+  }
+  .text-white\/40 {
+    color: oklch(1 0 0 / 0.40);
+  }
+  .text-white\/50 {
+    color: oklch(1 0 0 / 0.50);
+  }
+  .text-white\/55 {
+    color: oklch(1 0 0 / 0.55);
+  }
+  .text-white\/60 {
+    color: oklch(1 0 0 / 0.60);
+  }
+  .text-white\/65 {
+    color: oklch(1 0 0 / 0.65);
+  }
+  .text-white\/70 {
+    color: oklch(1 0 0 / 0.70);
+  }
+  .text-white\/75 {
+    color: oklch(1 0 0 / 0.75);
+  }
+  .text-white\/80 {
+    color: oklch(1 0 0 / 0.80);
+  }
+  .text-ink\/70 {
+    color: oklch(0.16 0.018 243 / 0.70);
+  }
+  .text-ink\/80 {
+    color: oklch(0.16 0.018 243 / 0.80);
+  }
+  .bg-white\/5 {
+    background-color: oklch(1 0 0 / 0.05);
+  }
+  .border-white\/10 {
+    border-color: oklch(1 0 0 / 0.10);
+  }
+  .border-l-navy {
+    border-left-color: oklch(0.255 0.072 243);
+  }
+  .text-navy-foreground {
+    color: oklch(0.985 0 0);
+  }
+  .hover\:text-navy-light:hover {
+    color: oklch(0.38 0.085 243);
+  }
+  .text-navy\/8 {
+    color: oklch(0.255 0.072 243 / 0.08);
+  }
+  .bg-navy\/8 {
+    background-color: oklch(0.255 0.072 243 / 0.08);
+  }
+  .text-navy-active {
+    color: oklch(0.255 0.072 243);
+    background-color: oklch(0.255 0.072 243 / 0.08);
+  }
+}

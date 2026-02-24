@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 15,
+  "summary": "Premium recruiter-focused personal portfolio website for Shubham Chordiya, Performance Marketing & Growth Specialist with 6+ years experience. 3-page site (Home, About, Portfolio) with minimal/clean design, white/light background, strong typography, and metrics blocks. No booking buttons, pricing, sales CTAs, or lead gen forms. Tone: professional, analytical, results-focused, strategic, corporate.",
+  "architectural_notes": [
+    "3-page site: Home, About, Portfolio — no booking, pricing, CTA, or lead gen sections",
+    "Design: minimal, clean, white/light background, strong typography, structured metric blocks",
+    "Use official platform logos (Google Ads, Meta, LinkedIn, etc.) and clean icons for skills",
+    "Tone: professional, analytical, results-focused, strategic, corporate — recruiter audience"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Clean minimal wordmark logo for a removalist/logistics company called Melbourne Star Movers — dark navy text on white background, simple star or arrow motif (logo-melbourne-star-movers.dim_200x80.png)\n- Clean minimal personal brand wordmark logo for Richard Afkari, real estate professional — dark serif or sans-serif name treatment on white background (logo-richard-afkari.dim_200x80.png)\n- Clean minimal logo for Plan Partners, a financial planning and NDIS support organisation — trustworthy, corporate style, dark navy on white (logo-plan-partners.dim_200x80.png)\n- Clean minimal wordmark logo for Matinas Fashion Trunk, a fashion/apparel brand — elegant, modern typography on white background (logo-matinas-fashion-trunk.dim_200x80.png)",
+  "existing_features": [
+    {
+      "id": "feature-implement-a-multi-page-react-frontend-with-three-routes-home-about-about-and-portfolio-portfolio-include-a-persistent-top-navigation-bar-with-the-name-shubham-chordiya-as-a-logo-wordmark-on-the-left-and-navigation-links-to-home-about-and-portfolio-on-the-right-no-booking-buttons-pricing-sections-sales-ctas-or-lead-generation-forms-anywhere-on-the-site",
+      "title": "Implement a multi-page React frontend with three routes: Home (/), About (/about), and Portfolio (/portfolio). Include a persistent top navigation bar with the name 'Shubham Chordiya' as a logo/wordmark on the left and navigation links to Home, About, and Portfolio on the right. No booking buttons, pricing sections, sales CTAs, or lead generation forms anywhere on the site.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-minimal-clean-visual-theme-throughout-the-site-white-or-very-light-grey-f8f9fa-background-dark-near-black-text-111827-strong-typographic-hierarchy-using-a-professional-sans-serif-font-e-g-inter-generous-spacing-subtle-borders-and-dividers-and-no-gradients-or-decorative-clutter-metric-highlights-should-use-a-light-steel-blue-or-slate-accent-1e3a5f-or-similar-deep-navy-for-emphasis-blocks-the-overall-aesthetic-must-be-corporate-analytical-and-recruiter-friendly",
+      "title": "Apply a minimal, clean visual theme throughout the site: white or very light grey (#F8F9FA) background, dark near-black text (#111827), strong typographic hierarchy using a professional sans-serif font (e.g., Inter), generous spacing, subtle borders and dividers, and no gradients or decorative clutter. Metric highlights should use a light steel-blue or slate accent (#1E3A5F or similar deep navy) for emphasis blocks. The overall aesthetic must be corporate, analytical, and recruiter-friendly.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-home-page-with-the-following-sections-1-hero-section-with-headline-performance-marketing-leader-driving-scalable-profitable-growth-6-years-of-experience-subheadline-specializing-in-google-ads-meta-ads-and-data-driven-acquisition-systems-across-global-markets-and-introduction-paragraph-as-specified-2-skills-section-divided-into-four-categories-advertising-platforms-analytics-tracking-performance-optimization-and-professional-skills-each-displaying-its-items-with-relevant-icons-or-platform-logos-use-svg-logos-or-icon-representations-for-google-ads-meta-ads-linkedin-ads-quora-ads-ga4-microsoft-clarity-looker-studio-and-gtm-use-clean-minimal-icons-for-optimization-and-professional-skill-items",
+      "title": "Build the Home page with the following sections: (1) Hero section with headline 'Performance Marketing Leader Driving Scalable & Profitable Growth | 6+ Years of Experience', subheadline 'Specializing in Google Ads, Meta Ads, and data-driven acquisition systems across global markets.', and introduction paragraph as specified; (2) Skills section divided into four categories — Advertising Platforms, Analytics & Tracking, Performance & Optimization, and Professional Skills — each displaying its items with relevant icons or platform logos. Use SVG logos or icon representations for Google Ads, Meta Ads, LinkedIn Ads, Quora Ads, GA4, Microsoft Clarity, Looker Studio, and GTM. Use clean minimal icons for optimization and professional skill items.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-about-page-with-the-following-sections-1-bio-paragraphs-as-specified-describing-6-years-of-experience-across-international-markets-2-strategic-approach-section-with-three-pillars-intent-based-targeting-competitor-interception-and-funnel-engineering-each-with-title-and-description-displayed-as-structured-cards-3-career-achievements-section-displaying-five-key-metrics-achievements-as-highlighted-stat-blocks-14-budget-scale-70-cpl-reduction-1-000-fintech-signups-under-50-sub-6-youtube-cps-hyperlocal-qsr-scaling-4-certifications-section-listing-google-ads-certified-microsoft-ads-certified-ga4-certified-and-google-tag-manager-certified-with-badge-style-presentation",
+      "title": "Build the About page with the following sections: (1) Bio paragraphs as specified describing 6+ years of experience across international markets; (2) Strategic Approach section with three pillars — Intent-Based Targeting, Competitor Interception, and Funnel Engineering — each with title and description displayed as structured cards; (3) Career Achievements section displaying five key metrics/achievements as highlighted stat blocks (14× budget scale, 70%+ CPL reduction, 1,000+ fintech signups under ₹50, sub-₹6 YouTube CPS, hyperlocal QSR scaling); (4) Certifications section listing Google Ads Certified, Microsoft Ads Certified, GA4 Certified, and Google Tag Manager Certified with badge-style presentation.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-portfolio-page-with-an-overview-section-followed-by-10-case-study-cards-the-overview-section-lists-the-8-industry-categories-covered-each-case-study-card-must-display-industry-market-where-applicable-budget-platforms-objective-strategy-as-bullet-list-and-results-key-performance-metrics-roas-cpl-cps-cost-per-signup-monthly-revenue-must-be-displayed-in-visually-highlighted-accent-blocks-within-each-card-the-10-case-studies-are-my-aashis-lixra-goofytails-alkalen-uma-oils-the-signal-dreamiyata-drama-upstox-real-estate-portfolio-ajmera-abil-and-miya-kebabs-each-with-full-data-as-specified-in-the-request",
+      "title": "Build the Portfolio page with an overview section followed by 10 case study cards. The overview section lists the 8 industry categories covered. Each case study card must display: Industry, Market (where applicable), Budget, Platforms, Objective, Strategy (as bullet list), and Results. Key performance metrics (ROAS, CPL, CPS, cost per signup, monthly revenue) must be displayed in visually highlighted accent blocks within each card. The 10 case studies are: My Aashis, Lixra, Goofytails, Alkalen, UMA Oils, The Signal, Dreamiyata Drama, Upstox, Real Estate Portfolio (Ajmera & ABIL), and Miya Kebabs — each with full data as specified in the request.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-footer-to-all-pages-displaying-the-name-shubham-chordiya-title-performance-marketing-growth-specialist-and-a-brief-tagline-no-contact-form-no-booking-links-no-pricing-keep-it-minimal-and-professional",
+      "title": "Add a footer to all pages displaying the name 'Shubham Chordiya', title 'Performance Marketing & Growth Specialist', and a brief tagline. No contact form, no booking links, no pricing. Keep it minimal and professional.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-and-use-a-professional-hero-background-image-for-the-home-page-hero-section-a-clean-abstract-data-analytics-themed-dark-navy-and-white-minimal-graphic-suitable-as-a-subtle-full-width-banner-background-save-as-frontend-public-assets-generated-hero-bg-dim-1440x500-png",
+      "title": "Generate and use a professional hero background image for the Home page hero section: a clean, abstract data/analytics-themed dark navy and white minimal graphic suitable as a subtle full-width banner background. Save as frontend/public/assets/generated/hero-bg.dim_1440x500.png.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-verify-and-ensure-the-portfolio-page-frontend-src-pages-portfolio-tsx-contains-all-10-case-study-entries-my-aashis-lixra-goofytails-alkalen-uma-oils-the-signal-dreamiyata-drama-upstox-real-estate-portfolio-ajmera-abil-and-miya-kebabs-each-rendered-via-the-casestudycard-component-with-complete-data-industry-market-where-applicable-budget-platforms-objective-strategy-as-bullet-list-and-results-if-any-case-study-is-missing-or-has-incomplete-data-fields-add-or-restore-it-with-placeholder-free-realistic-content-matching-the-campaign-context-for-each-brand-key-performance-metrics-roas-cpl-cps-cost-per-signup-monthly-revenue-must-appear-in-visually-highlighted-metricblock-accent-elements-within-each-card",
+      "title": "Verify and ensure the Portfolio page (frontend/src/pages/Portfolio.tsx) contains all 10 case study entries — My Aashis, Lixra, Goofytails, Alkalen, UMA Oils, The Signal, Dreamiyata Drama, Upstox, Real Estate Portfolio (Ajmera & ABIL), and Miya Kebabs — each rendered via the CaseStudyCard component with complete data: Industry, Market (where applicable), Budget, Platforms, Objective, Strategy (as bullet list), and Results. If any case study is missing or has incomplete data fields, add or restore it with placeholder-free, realistic content matching the campaign context for each brand. Key performance metrics (ROAS, CPL, CPS, cost per signup, monthly revenue) must appear in visually highlighted MetricBlock accent elements within each card.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-uploaded-profile-photo-of-shubham-chordiya-saved-as-frontend-public-assets-generated-profile-photo-dim-600x800-png-to-the-about-page-frontend-src-pages-about-tsx-display-it-prominently-near-the-top-of-the-page-either-beside-the-bio-paragraphs-in-a-two-column-layout-or-above-them-as-a-centered-portrait-using-a-clean-professional-presentation-with-subtle-border-or-shadow-consistent-with-the-site-s-minimal-aesthetic-the-image-must-be-responsive-and-appropriately-sized-on-mobile",
+      "title": "Add the uploaded profile photo of Shubham Chordiya (saved as frontend/public/assets/generated/profile-photo.dim_600x800.png) to the About page (frontend/src/pages/About.tsx). Display it prominently near the top of the page — either beside the bio paragraphs in a two-column layout or above them as a centered portrait — using a clean, professional presentation with subtle border or shadow consistent with the site's minimal aesthetic. The image must be responsive and appropriately sized on mobile.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-extract-and-integrate-the-following-work-experience-data-from-the-user-s-shared-resume-into-the-about-page-frontend-src-pages-about-tsx-add-a-dedicated-work-experience-section-between-the-bio-and-strategic-approach-sections-display-each-role-as-a-structured-timeline-or-card-entry-with-company-name-job-title-employment-dates-month-year-range-location-market-if-specified-and-a-bullet-point-list-of-key-responsibilities-and-achievements-use-the-same-minimal-corporate-aesthetic-as-the-rest-of-the-site-dark-text-on-white-light-background-subtle-borders-consistent-inter-typography-do-not-add-booking-links-ctas-or-contact-forms",
+      "title": "Extract and integrate the following work experience data from the user's shared resume into the About page (frontend/src/pages/About.tsx). Add a dedicated 'Work Experience' section between the Bio and Strategic Approach sections. Display each role as a structured timeline or card entry with: Company name, Job title, Employment dates (month/year range), Location/market (if specified), and a bullet-point list of key responsibilities and achievements. Use the same minimal, corporate aesthetic as the rest of the site — dark text on white/light background, subtle borders, consistent Inter typography. Do not add booking links, CTAs, or contact forms.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-work-experience-section-entirely-from-the-about-page-frontend-src-pages-about-tsx-delete-all-work-experience-timeline-card-entries-section-heading-and-any-related-markup-or-data-that-was-added-between-the-bio-and-strategic-approach-sections-the-about-page-should-flow-directly-from-the-bio-section-into-the-strategic-approach-section-as-it-was-before-the-work-experience-was-added",
+      "title": "Remove the Work Experience section entirely from the About page (frontend/src/pages/About.tsx). Delete all work experience timeline/card entries, section heading, and any related markup or data that was added between the Bio and Strategic Approach sections. The About page should flow directly from the Bio section into the Strategic Approach section, as it was before the work experience was added.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-and-add-brand-company-logo-images-for-all-10-portfolio-case-studies-my-aashis-lixra-goofytails-alkalen-uma-oils-the-signal-dreamiyata-drama-upstox-real-estate-portfolio-ajmera-abil-and-miya-kebabs-save-each-as-a-static-asset-under-frontend-public-assets-generated-with-appropriate-filenames-display-each-logo-prominently-in-the-header-area-of-its-corresponding-casestudycard-component-above-or-beside-the-brand-name-maintaining-the-site-s-minimal-corporate-aesthetic",
+      "title": "Generate and add brand/company logo images for all 10 portfolio case studies (My Aashis, Lixra, Goofytails, Alkalen, UMA Oils, The Signal, Dreamiyata Drama, Upstox, Real Estate Portfolio / Ajmera & ABIL, and Miya Kebabs). Save each as a static asset under frontend/public/assets/generated/ with appropriate filenames. Display each logo prominently in the header area of its corresponding CaseStudyCard component, above or beside the brand name, maintaining the site's minimal corporate aesthetic.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-significantly-expand-the-case-study-content-for-all-10-portfolio-entries-in-frontend-src-pages-portfolio-tsx-for-each-case-study-enrich-the-following-fields-with-detailed-realistic-and-contextually-accurate-information-1-objective-expand-from-a-single-sentence-to-2-3-sentences-explaining-the-business-problem-and-campaign-goal-2-strategy-increase-bullet-points-to-at-least-5-7-detailed-tactical-bullets-covering-audience-targeting-creative-approach-bidding-strategy-funnel-structure-tracking-setup-and-optimisation-methods-3-results-expand-to-include-at-least-4-6-result-points-with-specific-quantitative-metrics-timelines-and-business-impact-all-content-must-be-placeholder-free-professionally-written-and-consistent-with-each-brand-s-industry-market-and-campaign-context-the-10-case-studies-are-my-aashis-online-gifting-india-lixra-direct-to-consumer-fashion-international-goofytails-pet-care-india-alkalen-health-supplements-india-uma-oils-premium-ayurvedic-oils-india-international-the-signal-edtech-newsletter-india-dreamiyata-drama-ott-entertainment-india-upstox-fintech-stock-trading-india-real-estate-portfolio-ajmera-abil-luxury-and-affordable-real-estate-mumbai-and-miya-kebabs-qsr-food-hyperlocal-india",
+      "title": "Significantly expand the case study content for all 10 portfolio entries in frontend/src/pages/Portfolio.tsx. For each case study, enrich the following fields with detailed, realistic, and contextually accurate information: (1) Objective — expand from a single sentence to 2–3 sentences explaining the business problem and campaign goal; (2) Strategy — increase bullet points to at least 5–7 detailed tactical bullets covering audience targeting, creative approach, bidding strategy, funnel structure, tracking setup, and optimisation methods; (3) Results — expand to include at least 4–6 result points with specific quantitative metrics, timelines, and business impact. All content must be placeholder-free, professionally written, and consistent with each brand's industry, market, and campaign context. The 10 case studies are: My Aashis (online gifting, India), Lixra (direct-to-consumer fashion, international), Goofytails (pet care, India), Alkalen (health supplements, India), UMA Oils (premium Ayurvedic oils, India/international), The Signal (EdTech/newsletter, India), Dreamiyata Drama (OTT/entertainment, India), Upstox (fintech/stock trading, India), Real Estate Portfolio — Ajmera & ABIL (luxury and affordable real estate, Mumbai), and Miya Kebabs (QSR/food, hyperlocal India).",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-clickable-website-link-to-each-of-the-10-case-study-cards-in-frontend-src-pages-portfolio-tsx-and-the-casestudycard-component-display-the-link-as-a-subtle-professional-visit-website-or-view-brand-anchor-element-styled-consistently-with-the-site-s-minimal-aesthetic-e-g-small-text-with-an-external-link-icon-placed-in-the-card-header-or-footer-links-must-open-in-a-new-tab-the-website-urls-for-each-brand-are-my-aashis-https-myaashis-com-lixra-https-lixra-com-goofytails-https-goofytails-com-alkalen-https-alkalen-com-uma-oils-https-umaoils-com-the-signal-use-the-newsletter-product-url-if-known-or-a-best-fit-placeholder-domain-dreamiyata-drama-use-the-ott-platform-url-if-known-upstox-https-upstox-com-real-estate-portfolio-ajmera-abil-https-ajmera-com-and-https-abilgroup-in-respectively-miya-kebabs-use-the-brand-s-online-presence-url-if-known",
+      "title": "Add a clickable website link to each of the 10 case study cards in frontend/src/pages/Portfolio.tsx and the CaseStudyCard component. Display the link as a subtle, professional 'Visit Website' or 'View Brand' anchor element styled consistently with the site's minimal aesthetic (e.g., small text with an external link icon, placed in the card header or footer). Links must open in a new tab. The website URLs for each brand are: My Aashis — https://myaashis.com, Lixra — https://lixra.com, Goofytails — https://goofytails.com, Alkalen — https://alkalen.com, UMA Oils — https://umaoils.com, The Signal — use the newsletter/product URL if known or a best-fit placeholder domain, Dreamiyata Drama — use the OTT platform URL if known, Upstox — https://upstox.com, Real Estate Portfolio (Ajmera & ABIL) — https://ajmera.com and https://abilgroup.in respectively, Miya Kebabs — use the brand's online presence URL if known.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-four-new-case-study-entries-to-the-portfolio-page-frontend-src-pages-portfolio-tsx-using-the-existing-casestudycard-component-melbourne-star-movers-removalist-logistics-australia-richard-afkari-real-estate-agent-personal-brand-australia-or-international-plan-partners-financial-planning-ndis-australia-and-matinas-fashion-trunk-fashion-apparel-india-or-international-each-card-must-include-industry-market-budget-platforms-objective-2-3-sentences-strategy-at-least-5-7-detailed-tactical-bullet-points-covering-audience-targeting-creative-approach-bidding-strategy-funnel-structure-tracking-setup-and-optimisation-methods-results-at-least-4-6-quantitative-result-points-with-timelines-and-business-impact-and-key-performance-metrics-displayed-in-visually-highlighted-metricblock-accent-elements-all-content-must-be-placeholder-free-professionally-written-and-contextually-accurate-for-each-brand-s-industry-and-market-also-update-the-portfolio-overview-section-to-reflect-the-addition-of-the-new-industry-categories-covered-by-these-four-brands",
+      "title": "Add four new case study entries to the Portfolio page (frontend/src/pages/Portfolio.tsx) using the existing CaseStudyCard component: Melbourne Star Movers (removalist/logistics, Australia), Richard Afkari (real estate agent personal brand, Australia or international), Plan Partners (financial planning/NDIS, Australia), and Matinas Fashion Trunk (fashion/apparel, India or international). Each card must include: Industry, Market, Budget, Platforms, Objective (2–3 sentences), Strategy (at least 5–7 detailed tactical bullet points covering audience targeting, creative approach, bidding strategy, funnel structure, tracking setup, and optimisation methods), Results (at least 4–6 quantitative result points with timelines and business impact), and key performance metrics displayed in visually highlighted MetricBlock accent elements. All content must be placeholder-free, professionally written, and contextually accurate for each brand's industry and market. Also update the Portfolio overview section to reflect the addition of the new industry categories covered by these four brands.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-brand-logo-images-for-the-four-new-portfolio-case-studies-melbourne-star-movers-richard-afkari-plan-partners-and-matinas-fashion-trunk-and-save-them-as-static-assets-under-frontend-public-assets-generated-with-appropriate-filenames-e-g-logo-melbourne-star-movers-dim-200x80-png-logo-richard-afkari-dim-200x80-png-logo-plan-partners-dim-200x80-png-logo-matinas-fashion-trunk-dim-200x80-png-display-each-logo-in-the-header-area-of-its-corresponding-casestudycard-consistent-with-how-existing-case-study-logos-are-displayed",
+      "title": "Generate brand logo images for the four new portfolio case studies — Melbourne Star Movers, Richard Afkari, Plan Partners, and Matinas Fashion Trunk — and save them as static assets under frontend/public/assets/generated/ with appropriate filenames (e.g., logo-melbourne-star-movers.dim_200x80.png, logo-richard-afkari.dim_200x80.png, logo-plan-partners.dim_200x80.png, logo-matinas-fashion-trunk.dim_200x80.png). Display each logo in the header area of its corresponding CaseStudyCard, consistent with how existing case study logos are displayed.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home page with hero section, intro text, and skills section with platform logos and icons",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About page with bio, strategic approach pillars, career achievements, and certifications",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Portfolio page with 10 case studies structured by industry/market/budget/platforms/objective/strategy/results with metric highlight blocks",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Multi-page navigation between Home, About, and Portfolio pages",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Add a user-provided picture/photo to the About page section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Upload and display brand/company logos from the portfolio document on each case study card",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Expand case study content with more detailed information for each project (longer strategy, results, context)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add website links for each project/brand on the portfolio case study cards",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add 4 new case studies to the Portfolio page: Melbourne Star Movers, Richard Afkari, Plan Partners, and Matinas Fashion Trunk — from the portfolio document",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Shubham Chordiya Portfolio",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

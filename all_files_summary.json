@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented methods.",
+  "feature_evidence.json": "Feature evidence report mapping two features—adding four new portfolio case studies and generating their brand logos—to the Portfolio.tsx file with confidence ratings and test IDs.",
+  "frontend-file-summaries.txt": "JSON dictionary providing one-sentence summaries of each frontend source file, serving as a quick reference for the project's component and page structure.",
+  "frontend/index.css": "Tailwind CSS entry file that defines OKLCH-based CSS custom properties for light and dark theme color tokens including backgrounds, borders, and chart colors.",
+  "frontend/index.html": "Minimal HTML shell for the React SPA with a root div and a module script tag pointing to main.tsx.",
+  "frontend/src/App.tsx": "Root app component that configures TanStack Router with three routes (/, /about, /portfolio) wrapped in a persistent Navbar/Footer layout.",
+  "frontend/src/components/CaseStudyCard.tsx": "Reusable card component for displaying a case study with a navy header (optional logo and external link), meta info, objective, strategy bullet points, MetricBlock highlights, results list, and website URL footer.",
+  "frontend/src/components/CertificationBadge.tsx": "Small card component displaying a certification name and issuer alongside an Award icon in a bordered layout.",
+  "frontend/src/components/Footer.tsx": "Navy footer with identity info, navigation links, copyright year, and a caffeine.ai attribution link with UTM tracking.",
+  "frontend/src/components/MetricBlock.tsx": "Compact metric display component supporting three visual variants (navy filled, light tinted, outline) for showing a value and label pair.",
+  "frontend/src/components/Navbar.tsx": "Sticky navigation bar with a wordmark, desktop nav links with active highlighting, and a mobile hamburger menu using TanStack Router's Link.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an ICP backend actor via TanStack Query, using the current Internet Identity and invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides a React context and hook for Internet Identity authentication using DFINITY's AuthClient, exposing login/logout functions, identity state, and login status. Also exports an `InternetIdentityProvider` component to wrap the app with auth context.",
+  "frontend/src/index.css": "Global stylesheet that imports the Inter font, sets up Tailwind CSS layers, and defines CSS custom properties for a navy-themed light/dark color palette including sidebar, chart, and utility classes.",
+  "frontend/src/main.tsx": "Application entry point that mounts the React app with React Query and InternetIdentityProvider wrappers around the root App component.",
+  "frontend/src/pages/About.tsx": "About page displaying Shubham Chordiya's professional bio, strategic pillars, key performance achievements, and certifications using MetricBlock and CertificationBadge components.",
+  "frontend/src/pages/Home.tsx": "Home/landing page showcasing a hero section, platform skills (Google Ads, Meta, LinkedIn, Quora), analytics tools, performance skills, and professional competencies with icons and descriptive labels.",
+  "frontend/src/pages/Portfolio.tsx": "Portfolio page listing industry categories and detailed case studies (e.g., My Aashis, Lixra) with objectives, strategies, results, and metrics rendered via CaseStudyCard components.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration for the frontend, extending the default theme with custom colors (using oklch), fonts, border radii, shadows, and keyframe animations, while enabling dark mode and including typography, container-queries, and animate plugins.",
+  "project_state.json": "Project state manifest (version 15) describing a 3-page recruiter-focused portfolio site for Shubham Chordiya, including architectural notes, required images, existing implemented features, and design/tone guidelines."
+}
